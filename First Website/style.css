@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    background-color: #ffffff;
+}
+
+header{
+    background-color: #424242;
+    font-family: 'Montserrat','Courier New', Courier, monospace;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    padding-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header h1{ 
+    color: white;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#photo-joseph{
+    margin-left: 5%;
+    width: 100px;
+    padding: 0px;
+    border-radius: 50%;
+}
+
+#icons{ 
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+    align-items: center;
+}
+
+#icons img{
+    margin: 20px;
+    width: 50px;
+    filter: invert(100%);
+}
+
+body main #introduction{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+body main #introduction h3{
+    font-size: 50px;
+    font-weight: 100;
+    color: #5e5e5e;
+}
+body main #introduction h2{
+    font-size: 100px;
+    font-weight: 1000;
+    box-sizing: border-box;
+    margin-right: 100px;
+    color: rgb(29, 29, 29);
+
+}
+body main #introduction span{
+    color: hsl(32, 100%, 50%);
+}
+
+#kimberly{
+    
+    margin-bottom: 0;
+    background-color: pink;
+    padding: 40px;
+}
+#gf-pics{
+    padding: 20px;
+    margin: auto;
+    border: solid;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    row-gap: 50px;
+    column-gap: 50px;
+}
+#gf-pics *{
+    align-self: center;
+    width: 20%;
+}
+
+footer{
+    background-color: rgb(93, 213, 243);
+    margin: 0;
+    padding: 100px;
+}
