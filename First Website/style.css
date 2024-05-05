@@ -4,8 +4,8 @@ body{
 }
 
 header{
-    background-color: #424242;
-    font-family: 'Montserrat','Courier New', Courier, monospace;
+    background-color: #72675b;
+    font-family: 'Lato','Courier New', Courier, monospace;
     color: white;
     margin: 0;
     padding: 20px;
@@ -19,7 +19,7 @@ header h1{
     color: white;
     display: inline-block;
     margin-left: 30px;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 #photo-joseph{
@@ -46,6 +46,7 @@ header h1{
 body main #introduction{
     margin-top: 100px;
     margin-left: 200px;
+    margin-bottom: 500px;
 }
 body main #introduction h3{
     font-size: 50px;
@@ -61,28 +62,36 @@ body main #introduction h2{
 
 }
 body main #introduction span{
-    color: hsl(32, 100%, 50%);
+    color: #d99950;
 }
 
-#kimberly{
+body main #about-me{
+    background-color: #5e5e5e;
+    height: 200px;
+}
+
+body main #certification{
+    background-color: #FFE0B5;
+    height:1200px;
     
-    margin-bottom: 0;
-    background-color: pink;
-    padding: 40px;
 }
-#gf-pics{
-    padding: 20px;
-    margin: auto;
-    border: solid;
+
+body main #certification #cert-header{
+    padding: 50px;
+    color: #4c3650;
+    text-align: center;
+}
+
+.container{
     display: flex;
-    flex-wrap: wrap;
-    width: 60%;
-    row-gap: 50px;
-    column-gap: 50px;
+    align-content: center;
+    justify-content: space-evenly;
 }
-#gf-pics *{
-    align-self: center;
-    width: 20%;
+.container section h2{
+    text-align: center;
+}
+.container img{
+    width: 500px;
 }
 
 footer{
